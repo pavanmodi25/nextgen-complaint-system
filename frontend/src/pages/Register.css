@@ -1,0 +1,97 @@
+/* Container form */
+form {
+  max-width: 420px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Heading */
+form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Error message */
+form p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+/* Labels */
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Inputs and select */
+form input,
+form select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  background-color: #fdfdfd;
+  margin-bottom: 14px;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #4A90E2;
+  box-shadow: 0px 0px 5px rgba(74, 144, 226, 0.4);
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #4A90E2, #357ABD);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: linear-gradient(135deg, #357ABD, #2C5FA8);
+}
+
+/* Links */
+form a {
+  color: #4A90E2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+/* Link text below form */
+form p:last-of-type {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  form {
+    margin: 20px;
+    padding: 20px;
+  }
+}

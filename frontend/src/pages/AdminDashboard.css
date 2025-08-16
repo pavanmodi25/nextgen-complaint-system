@@ -1,0 +1,109 @@
+.admin-dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.admin-dashboard h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.filter-bar select,
+.filter-bar input,
+.filter-bar button {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.filter-bar button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filter-bar button:hover {
+  background-color: #45a049;
+}
+
+.no-data {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+.complaint-card {
+  border: 1px solid #ddd;
+  padding: 14px;
+  border-radius: 8px;
+  margin: 12px 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.complaint-card:hover {
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.complaint-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complaint-header b {
+  font-size: 16px;
+  color: #333;
+}
+
+.complaint-header i {
+  font-size: 13px;
+  color: #777;
+}
+
+.complaint-meta {
+  font-size: 12px;
+  color: #666;
+}
+
+.status-select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.complaint-description {
+  margin-top: 10px;
+  line-height: 1.4;
+  color: #444;
+}
+
+.attachment-link {
+  display: inline-block;
+  margin-top: 5px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.attachment-link:hover {
+  text-decoration: underline;
+}
+
+.complaint-time {
+  font-size: 12px;
+  color: #888;
+  margin-top: 8px;
+}
