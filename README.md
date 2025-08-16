@@ -41,3 +41,4 @@ Register normally, then in MongoDB update the user document's `role` to `"admin"
 ### Notes
 - Uploads are served from `/uploads` in backend. Files are saved to `backend/uploads`.
 - For production, replace local uploads with S3 or Cloudinary.
+# car-rental-system
